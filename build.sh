@@ -11,7 +11,7 @@ harp compile
 mv www/ ../lasjdflajsdlfjals
 echo "\033[1;33m Preparing to deploy\n\033[0m"
 git checkout master
-g rm -rf ./**/*
+git rm -rf ./**/*
 mv ../lasjdflajsdlfjals/**/* ./ -f
 echo "gabrielrubens.com" >> CNAME
 git add --all
